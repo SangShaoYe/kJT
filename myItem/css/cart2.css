@@ -1,0 +1,96 @@
+.nav_ul_ul {
+  display: none; }
+
+.nav_list_0:hover .nav_ul_ul {
+  display: block;
+  z-index: 1000; }
+
+.mycart_box {
+  background: #F5F5F5; }
+  .mycart_box .mycart {
+    padding-top: 50px;
+    width: 1206px;
+    margin: 0 auto; }
+    .mycart_box .mycart .mycart_text {
+      border-bottom: 1px solid #e5e5e5;
+      height: 35px;
+      position: relative;
+      font-size: 16px; }
+    .mycart_box .mycart .introduce {
+      width: 1206px;
+      color: #666;
+      border-bottom: 1px solid #03c9a9;
+      line-height: 42px;
+      background: white;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around; }
+    .mycart_box .mycart .cart_main {
+      background: white;
+      border: 1px solid #e5e5e5;
+      margin-top: 20px; }
+      .mycart_box .mycart .cart_main > p {
+        padding-left: 20px;
+        background: #f8f8f8 none repeat scroll 0 0;
+        border-bottom-color: #eaf8ff;
+        height: 40px;
+        line-height: 40px;
+        text-align: left; }
+      .mycart_box .mycart .cart_main .goodsCart div {
+        overflow: hidden;
+        padding-top: 20px;
+        border-bottom: 1px solid #e5e5e5; }
+        .mycart_box .mycart .cart_main .goodsCart div img {
+          float: left; }
+        .mycart_box .mycart .cart_main .goodsCart div p {
+          float: left; }
+          .mycart_box .mycart .cart_main .goodsCart div p:nth-of-type(1) {
+            display: flex;
+            flex-direction: column;
+            width: 150px;
+            line-height: 35px; }
+            .mycart_box .mycart .cart_main .goodsCart div p:nth-of-type(1) span:nth-of-type(2) {
+              color: #f22613;
+              font-weight: bold; }
+          .mycart_box .mycart .cart_main .goodsCart div p:nth-of-type(2) {
+            margin-left: 175px;
+            width: 50px; }
+          .mycart_box .mycart .cart_main .goodsCart div p:nth-of-type(3) {
+            margin-left: 170px;
+            width: 50px; }
+          .mycart_box .mycart .cart_main .goodsCart div p:nth-of-type(4) {
+            margin-left: 120px;
+            width: 50px; }
+          .mycart_box .mycart .cart_main .goodsCart div p:nth-of-type(5) {
+            margin-left: 180px;
+            cursor: pointer; }
+    .mycart_box .mycart .pay {
+      background: #e5e5e5 none repeat scroll 0 0;
+      width: 1200px;
+      height: 50px;
+      line-height: 50px;
+      padding-left: 6px;
+      margin-top: 20px;
+      margin-bottom: 10px; }
+      .mycart_box .mycart .pay span:nth-of-type(1) {
+        color: #f40;
+        font-family: tohoma,arial;
+        font-size: 22px;
+        font-weight: 700;
+        padding: 0 3px; }
+      .mycart_box .mycart .pay span:nth-of-type(2) {
+        background: #03c9a9 none repeat scroll 0 0;
+        border-radius: 2px;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Microsoft Yahei";
+        font-size: 20px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        width: 120px;
+        color: white;
+        float: right; }
+
+/*# sourceMappingURL=cart2.css.map */

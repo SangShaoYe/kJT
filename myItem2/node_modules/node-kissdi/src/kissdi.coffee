@@ -1,0 +1,1 @@
+exports.inject = require "./inject"

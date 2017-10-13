@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<title>BESTKEEP</title>
+		<script src="../js/gVerify.js"></script>
+		<script src="../js/jquery-1.11.1.js"></script>
+		<script src="../js/perfect_startMove.js"></script>
+		<script src="../js/tool.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index2.css" />
+		<script src="../js/jquery-1.11.1.js"></script>
+		<script type = "text/javascript" src="../js/jquery.cookie.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/loginAngRegister.js"></script>
+	</head>
+	<body>
+		<div class="top_box">
+			<div class="top">
+				<p class="top_left"><span>BESTKEEP</span>丨<span><a href="#" class="login">登录</a>/<a href="#" class="register">注册</a></span></p>
+				<div class="top_right">
+					<p class="iconfont icon-cart cart" id="cart"><a href="#" class="cart_a">购物车(<span>0</span>)</a><span class="no-data">用户还未登录</span></p><i class="splitoer">|</i>
+					<p class="order">我的订单</p><i class="splitoer">|</i>
+					<p class="iconfont icon-weibiaoti1 phone"><span class="phone_a">手机版<img class="inner-wrap" src="../images/app-Qr-code.png"/></span></p><i class="splitoer">|</i>
+					<p class="purchase">企业采购</p>
+				</div>
+			</div>
+		</div>
+		<div class="search_box">
+			<div class="search">
+				<div class="search_logo">
+					<p class="search_p">再也不用到处比价</p>
+				</div>
+				<form class="search_text_box">
+				<input class="search_text"  type="text" placeholder="美妆个护"/>
+				<a class="iconfont icon-sousuo" id="btnSearch"></a>
+				</form>
+				<div class="day"></div>
+				<div class="nav1">
+					<ul class="nav1_ul" id="nav1_ul"></ul>
+				</div>
+			</div>
+		</div>
+		<div class="banner" id="banner">
+			<ul class="banner_ul" id="banner_ul">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="count" id="count">
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+				<span>4</span>
+				<span>5</span>
+				<span>6</span>
+				<span>7</span>
+			</div>
+		</div>	
+		<section class="column" id="starGoods">
+			<div class="starGoods_title">
+				<div class="starGoods_x"></div>
+				<h3 class="starGoods_titleText">
+					<img src="../images/icon_star.png"/>明星商品
+				</h3>
+			</div>
+			<div class="switch-wrap">
+				<ul class="switch-item clearbox1">
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+				</ul>
+				<ul class="switch-item clearbox2">
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+				</ul>
+				<p class="lnk-wrap">
+					<span class="lnk-wrap-1 iconfont icon-zuoyoujiantou-copy-copy-copy"></span>
+					<span class="lnk-wrap-2 iconfont icon-zuoyoujiantou-copy-copy-copy-copy-copy"></span>
+				</p>
+			</div>
+		</section>	
+		<section class="column" id="starGoods2">
+			<div class="starGoods_title">
+				<div class="starGoods_x"></div>
+				<h3 class="starGoods_titleText">
+					<img src="../images/icon_new.png"/>最新上架
+				</h3>
+			</div>
+			<div class="switch-wrap2">
+				<ul class="switch-item clearbox1 switch-item2">
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+				</ul>
+				<ul class="switch-item clearbox2 switch-item2">
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+					<li class="goods"></li>
+				</ul>
+				<p class="lnk-wrap lnk-wrap2">
+					<span class="lnk-wrap2-1 iconfont icon-zuoyoujiantou-copy-copy-copy"></span>
+					<span class="lnk-wrap2-2 iconfont icon-zuoyoujiantou-copy-copy-copy-copy-copy"></span>
+				</p>
+			</div>
+		</section>	
+		<section class="lifebox"><!--1-->
+			<p class="life_p1">品质生活<span>查看更多</span></p>
+			<div class="life_left">
+				<img src="../images/life.png"/>
+				<ul class="life_ul">
+					<li><a href="#"><img src="../images/goods1.png"/>厨具</a></li>
+					<li><a href="#"><img src="../images/goods2.png" />清洁用品</a></li>
+					<li><a href="#"><img src="../images/goods3.png" />纸制品</a></li>
+					<li><a href="#"><img src="../images/goods4.png" />生活日用</a></li>
+					<li><a href="#"><img src="../images/goods5.png" />家纺</a></li>
+					<li><a href="#"><img src="../images/goods6.png" />运动健身</a></li>
+				</ul>
+			</div>
+			<div class="switch-wrap3">
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+			</div>
+		
+		</section>
+		<section class="lifebox"><!--2-->
+			<p class="life_p1">品质生活<span>查看更多</span></p>
+			<div class="life_left">
+				<img src="../images/life.png"/>
+				<ul class="life_ul">
+					<li><a href="#"><img src="../images/goods1.png"/>厨具</a></li>
+					<li><a href="#"><img src="../images/goods2.png" />清洁用品</a></li>
+					<li><a href="#"><img src="../images/goods3.png" />纸制品</a></li>
+					<li><a href="#"><img src="../images/goods4.png" />生活日用</a></li>
+					<li><a href="#"><img src="../images/goods5.png" />家纺</a></li>
+					<li><a href="#"><img src="../images/goods6.png" />运动健身</a></li>
+				</ul>
+			</div>
+			<div class="switch-wrap4">
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+			</div>
+		
+		</section>
+		<section class="lifebox"><!--3-->
+			<p class="life_p1">品质生活<span>查看更多</span></p>
+			<div class="life_left">
+				<img src="../images/life.png"/>
+				<ul class="life_ul">
+					<li><a href="#"><img src="../images/goods1.png"/>厨具</a></li>
+					<li><a href="#"><img src="../images/goods2.png" />清洁用品</a></li>
+					<li><a href="#"><img src="../images/goods3.png" />纸制品</a></li>
+					<li><a href="#"><img src="../images/goods4.png" />生活日用</a></li>
+					<li><a href="#"><img src="../images/goods5.png" />家纺</a></li>
+					<li><a href="#"><img src="../images/goods6.png" />运动健身</a></li>
+				</ul>
+			</div>
+			<div class="switch-wrap5">
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+			</div>
+		
+		</section>
+		<section class="lifebox"><!--4-->
+			<p class="life_p1">品质生活<span>查看更多</span></p>
+			<div class="life_left">
+				<img src="../images/life.png"/>
+				<ul class="life_ul">
+					<li><a href="#"><img src="../images/goods1.png"/>厨具</a></li>
+					<li><a href="#"><img src="../images/goods2.png" />清洁用品</a></li>
+					<li><a href="#"><img src="../images/goods3.png" />纸制品</a></li>
+					<li><a href="#"><img src="../images/goods4.png" />生活日用</a></li>
+					<li><a href="#"><img src="../images/goods5.png" />家纺</a></li>
+					<li><a href="#"><img src="../images/goods6.png" />运动健身</a></li>
+				</ul>
+			</div>
+			<div class="switch-wrap6">
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+			</div>
+		
+		</section>
+		<section class="lifebox"><!--5-->
+			<p class="life_p1">品质生活<span>查看更多</span></p>
+			<div class="life_left">
+				<img src="../images/life.png"/>
+				<ul class="life_ul">
+					<li><a href="#"><img src="../images/goods1.png"/>厨具</a></li>
+					<li><a href="#"><img src="../images/goods2.png" />清洁用品</a></li>
+					<li><a href="#"><img src="../images/goods3.png" />纸制品</a></li>
+					<li><a href="#"><img src="../images/goods4.png" />生活日用</a></li>
+					<li><a href="#"><img src="../images/goods5.png" />家纺</a></li>
+					<li><a href="#"><img src="../images/goods6.png" />运动健身</a></li>
+				</ul>
+			</div>
+			<div class="switch-wrap7">
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+				<ul class="switch2-item clearbox1 switch-item2">
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+					<li class="goods goods2"></li>
+				</ul>
+			</div>
+		
+		</section>
+		<section class="go">
+			<div class="go1">
+				<div class="gobox"><p>保健养生</p><p>GO</p></div>
+			</div>
+			<div class="go2">
+				<div class="gobox"><p>手机数码</p><p>GO</p></div>
+			</div>
+			<div class="go3">
+				<div class="gobox"><p>电脑办公</p><p>GO</p></div>
+			</div>
+			<div class="go4">
+				<div class="gobox"><p>服饰箱包</p><p>GO</p></div>
+		</section>
+		<footer class="footer">
+			<div class="footerBox">
+				<div class="qulity">
+					<p class="qulity1"><span>品质保障</span><span>品质护航 购物无忧</span></p>
+					<p class="qulity2"><span>协同消费</span><span>群体消费 共享钜惠</span></p>
+					<p class="qulity3"><span>防伪码溯源</span><span>支持扫码 查询验真</span></p>
+				</div>
+				<div class="bottom">
+					<div class="bottom-left">
+						<p class="bottom-p1"><span>有糖生态合作平台</span>|<span>关于我们</span>|<span>办公环境</span>|<span>联系我们</span>|<span>聘请英才</span></p>
+						<p>热线电话：400-036-7718 地址：江东区惊驾路668号银晨国际1幢8楼805室</p>
+						<p>Copyright©2014-2017, All rights reserved. BESTKEEP. 宁波富邦电子商务发展有限公司 版权所有</p>
+						<p>投资方：上海有糖道网络科技有限公司 www.bestkeep.cn，沪ICP备16001812号</p>
+						<p><img src="../images/supportTip-bg.png"/>  悠唐软件(UTSOFT.CN)提供技术支持</p>
+					</div>
+					<div class="bottom-right">
+						<p>BESTKEEP客户端</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="fixation" style="top:40%">
+			<p class="iconfont icon-sousuo fixation1"></p>
+			<p class="iconfont icon-dingdan fixation2"></p>
+			<p class="iconfont icon-cart fixation3"></p>
+			<p class="iconfont icon-dianhua fixation4"></p>
+			<p class="iconfont icon-kefu fixation5"></p>
+			<p class="iconfont icon-shouye fixation6" id="home"></p>
+			<p class="back" onclick="showScroll();">↑</p>
+		</div>
+		
+		<div class="loginAndRegist">
+			
+		</div>
+	</body>
+	<script>
+	</script>
+</html>

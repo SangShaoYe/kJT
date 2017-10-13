@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<title></title>
+		<script src="../jquery-1.10.1.min.js"></script>
+		<script>
+			$.ajax({
+				type:"post",
+				url:"data/qualityOfLife.php",
+				success:function(data){
+					var nav_list = JSON.parse(data);
+//					for(var i = 0; i < nav_list)
+					alert(nav_list[0].name);
+				}
+			});
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

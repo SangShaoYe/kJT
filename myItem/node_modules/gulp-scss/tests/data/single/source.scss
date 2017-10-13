@@ -1,0 +1,18 @@
+article.test {
+  & {
+    position: absolute;
+    width: 100%;
+  }
+  header {
+    h1 {
+      font: {
+        size: 2em;
+      }
+    }
+  }
+  p {
+    font: {
+      size: 1em;
+    }
+  }
+}

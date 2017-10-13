@@ -1,0 +1,15 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  :before {
+    content: "Hello World";
+  }
+}
+div.test2 {
+  box: {
+    shadow: 0 0 0 0;
+  }
+  :after {
+    content:  "test2";
+  }
+}

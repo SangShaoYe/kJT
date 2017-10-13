@@ -1,0 +1,46 @@
+{
+  "name": "power-assert",
+  "description": "Power Assert in JavaScript",
+  "main": "build/power-assert.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "index.js",
+    "test",
+    "enable_power_assert.js"
+  ],
+  "keywords": [
+    "power-assert",
+    "test",
+    "assert",
+    "testing",
+    "ecmascript",
+    "ast"
+  ],
+  "authors": [
+    {
+      "name": "Takuto Wada",
+      "email": "takuto.wada@gmail.com",
+      "homepage": "https://github.com/twada"
+    },
+    {
+      "name": "azu",
+      "url": "https://github.com/azu"
+    },
+    {
+      "name": "vvakame",
+      "url": "https://github.com/vvakame"
+    }
+  ],
+  "homepage": "https://github.com/twada/power-assert",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twada/power-assert.git"
+  },
+  "devDependencies": {
+    "expect": "~0.3.1",
+    "mocha": "~2.1.0",
+    "requirejs": "~2.1.15"
+  }
+}

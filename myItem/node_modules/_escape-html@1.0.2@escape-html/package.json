@@ -1,0 +1,19 @@
+{
+  "name": "escape-html",
+  "description": "Escape HTML entities",
+  "version": "1.0.2",
+  "license": "MIT",
+  "keywords": [
+    "escape",
+    "html",
+    "utility"
+  ],
+  "repository": "component/escape-html",
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js"
+  ],
+  "_from": "escape-html@1.0.2",
+  "_resolved": "http://registry.npm.taobao.org/escape-html/download/escape-html-1.0.2.tgz"
+}
