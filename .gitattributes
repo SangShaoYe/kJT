@@ -1,0 +1,3 @@
+ECHO 处于打开状态。
+*.css linguist-language=js
+*.html linguist-language=js
